@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" url="node_modules/dist/css/bootstrap.css">
+    <link rel="stylesheet" url="style.css">
+</head>
+
+<body>
+
+    <ui-view>
+
+        <site-landing></site-landing>
+
+    </ui-view>
+
+    <!-- INSTALLED DEPENDENCIES  -->
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <!-- CDN DEPENDENCIES -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.8/angular-css.js"></script>
+
+    <!-- ANGULAR COMPONENTS -->
+    <script type="text/javascript" src="app/app.module.js"></script>
+    <script type="text/javascript" src="app/app.routes.js"></script>
+    <script type="text/javascript" src="app/site-landing/site-landing.component.js"></script>
+
+
+</body>
+
+</html>
