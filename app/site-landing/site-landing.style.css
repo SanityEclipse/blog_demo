@@ -1,0 +1,16 @@
+#blogEntries {
+    background-color: black;
+    padding-bottom: 70px;
+}
+
+#blogEntries>h1 {
+    color: white;
+}
+
+#blogEntries>div>div>h4 {
+    color: red;
+}
+
+#blogEntries>div>div>p {
+    color: white
+}

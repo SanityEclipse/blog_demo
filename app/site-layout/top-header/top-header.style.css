@@ -1,0 +1,18 @@
+#headerStyling {
+    background-color: black;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 50px;
+}
+
+#headerStyling>div>h1 {
+    color: red;
+}
+
+#headerStyling>div>h1>small {
+    color: white
+}
+
+div>div>img {
+    height: 50px;
+    width: 50px;
+}

@@ -5,3 +5,7 @@
 .navbar-collapse.in {
     overflow-y: hidden;
 }
+
+#navBarStyle {
+    background-color: black;
+}

@@ -4,3 +4,7 @@ ANGULAR'S ROUTER. DO NOT DELETE! */
 .nav, .pagination, .carousel, .panel-title a {
     cursor: pointer;
 }
+
+body {
+    background-color: black;
+}

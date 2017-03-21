@@ -9,9 +9,11 @@
       css         : 'app/site-landing/site-landing.style.css'
     })
 
+
+
   function controller() {
     const vm = this;
 
   }
 
-})();
+}());
