@@ -2,12 +2,11 @@
 
   'use strict';
 
-  angular
-    .module('app', ['ui.router',
-                    'ui.bootstrap',
-                    'angularCSS',
-                    'ngAnimate'
+    angular
+      .module('app', ['ui.router',
+                      'angularCSS',
+                      'ngAnimate'
 
-                    ]);
+      ]);
 
 })();
