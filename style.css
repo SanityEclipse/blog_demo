@@ -1,0 +1,6 @@
+/*THE BELOW CSS ENTRY PREVENTS BOOTSTRAP FROM CAUSING IRREGULARITIES IN
+ANGULAR'S ROUTER. DO NOT DELETE! */
+
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
