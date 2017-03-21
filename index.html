@@ -6,13 +6,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
     <title>Blog</title>
-    <link rel="stylesheet" url="node_modules/dist/css/bootstrap.css">
-    <link rel="stylesheet" url="style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <ui-view>
+
+        <top-header></top-header>
 
         <site-landing></site-landing>
 
@@ -24,6 +27,7 @@
     <script type="text/javascript" src="/node_modules/angular/angular.js"></script>
     <script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.js"></script>
     <script type="text/javascript" src="/node_modules/angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="/node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
 
     <!-- CDN DEPENDENCIES -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.8/angular-css.js"></script>
@@ -35,6 +39,10 @@
     <script type="text/javascript" src="app/site-layout/bottom-footer/bottom-footer.component.js"></script>
     <script type="text/javascript" src="app/site-layout/top-header/top-header.component.js"></script>
 
+
+</body>
+
+</html>
 
 </body>
 
