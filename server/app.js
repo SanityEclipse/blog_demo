@@ -1,15 +1,16 @@
 require('dotenv').config();
 
-const express = require('express');
+const app = express();
 const path = require('path');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const queries = require ('../db/queries');
 
 const index = require('./routes/index');
 const users = require('./routes/users');
 
-const app = express();
+const express = require('express');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -19,12 +20,6 @@ app.use(express.static(path.join(__dirname, '/../', 'node_modules')));
 
 app.use('/api/v1', index);
 app.use('/api/v1', users);
-
-app.use('*', function (req, res) {
-  res.sendFile('index.html', {
-    root: path.join(__dirname, '/../client')
-  })
-})
 
 app.use(function(err, req, res, next) {
   const response = { message: err.message }
